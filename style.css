@@ -311,3 +311,75 @@ section button {
   font-size: 50px;
   color: #917058;
 }
+/*Products*/
+.Product-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 40px;
+  align-items: center;
+}
+.Product-detail img {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  display: block;
+}
+.product-content h4 {
+  font-size: 35px;
+  font-weight: 630;
+  color: #67432a;
+  margin-bottom: 0;
+}
+.product-content h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #67432a;
+}
+.product-content p {
+  color: #917058;
+  font-weight: 550;
+  margin-bottom: 33px;
+}
+.product-content {
+  padding: 20px;
+}
+
+.P-content h5 {
+  color: #67432a;
+  font-size: 16px;
+}
+h4,
+p,
+h5,
+h1,
+h3,
+label,
+input,
+button {
+  font-family: "Cairo", sans-serif;
+}
+.fa-star {
+  color: #ffc107;
+}
+img:hover {
+  filter: brightness(60%);
+  cursor: pointer;
+}
+button {
+  background: transparent;
+  color: #67432a;
+  border: 1px solid #67432a;
+  padding: 8px 16px; /*top bottom and right and left*/
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+button:hover {
+  background-color: #67432a;
+  color: white;
+  transform: scale(1.1);
+  transition: 1s;
+}
