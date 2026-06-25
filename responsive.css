@@ -1,0 +1,248 @@
+/*Shopping*/
+@media (max-width: 425px) {
+  /*user*/
+  input {
+    width: 250px;
+  }
+  .Product-detail {
+    grid-template-columns: 1fr;
+  }
+  .Product-detail img {
+    width: 90%;
+    margin: 20px auto;
+    display: block;
+  }
+  /*products*/
+  .product-content h4 {
+    font-size: 25px;
+    margin-top: 0px;
+  }
+  .product-content h5 {
+    padding-right: 20px;
+  }
+  .product-content p {
+    font-size: 12px;
+    padding: 0 15px;
+  }
+  .product-content h4 {
+    padding-right: 20px;
+  }
+  .product-content p {
+    padding-right: 20px;
+  }
+
+  .product-content span {
+    padding-right: 20px;
+  }
+  .Product-detail button {
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+  /*Services*/
+  .Services {
+    flex-direction: column;
+  }
+  .card img {
+    margin-top: 30px;
+  }
+  /*About*/
+  .About-content h3 {
+    margin-top: 30px;
+  }
+  .About-Us img {
+    display: none;
+  }
+  .About-content p {
+    font-size: 13px;
+  }
+  .About-content span {
+    padding-right: 0;
+  }
+  .Products {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .WorkShop {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+  .WorkShop img {
+    width: 300px;
+    margin: auto;
+  }
+  .Views {
+    flex-direction: column;
+  }
+  .hero-text p {
+    font-size: 16px;
+  }
+}
+/*Tablet*/
+@media (min-width: 426px) and (max-width: 768px) {
+  /*about*/
+  .About-Us {
+    flex-direction: column;
+  }
+  .About-Us img {
+    display: none;
+  }
+  .About-content h3 {
+    padding-bottom: 0;
+  }
+  .About-content p {
+    padding-top: 0;
+  }
+  /*Products*/
+  .Products {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 15px;
+  }
+  .Products img {
+    width: 100%;
+    margin: 0;
+  }
+  .Products button {
+    margin-right: 5px;
+  }
+  /*workshop*/
+  .WorkShop {
+    grid-template-columns: 1fr 1fr;
+  }
+  .WorkShop img {
+    width: 220px;
+    margin: auto;
+  }
+}
+/* 320*/
+@media (max-width: 320px) {
+  .WorkShop img {
+    padding: 10px;
+    width: 300px;
+  }
+  .About-content h3 {
+    font-size: 30px;
+  }
+  .About-content p {
+    padding: 0 20px;
+  }
+  .Products img {
+    width: 265px;
+  }
+  .Products h4 {
+    padding: 0;
+  }
+  .product-content h5 {
+    padding-right: 20px;
+  }
+}
+/*Tablet*/
+@media (min-width: 424px) and (max-width: 607px) {
+  .Views {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+}
+@media (min-width: 424px) and (max-width: 532px) {
+  .WorkShop {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+  .WorkShop img {
+    width: 300px;
+    margin: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 1307px) {
+  .WorkShop {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+  .WorkShop img {
+    width: 350px;
+    margin: auto;
+  }
+  .Products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+}
+@media (min-width: 769px) and (max-width: 947px) {
+  .Products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .Products img {
+    width: 360px;
+  }
+}
+@media (max-width: 335px) {
+  .WorkShop img {
+    width: 250px;
+    margin: auto;
+  }
+  .hero-text p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 269px) {
+  .WorkShop img {
+    width: 200px;
+    margin: auto;
+  }
+  .Products img {
+    width: 240px;
+  }
+}
+@media (max-width: 238px) {
+  .WorkShop img {
+    width: 150px;
+    margin: auto;
+  }
+  .Products img {
+    width: 180px;
+  }
+  .hero-text p {
+    font-size: 9px;
+  }
+  .About-content h3 {
+    font-size: 25px;
+  }
+}
+@media (min-width: 425px) and (max-width: 715px) {
+  .Services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .card img {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 345px) {
+  footer p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 285px) {
+  footer p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .Product-detail img {
+    width: 300px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .product-content h4 {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  .product-content p {
+    color: #917058;
+    padding-left: 40px;
+    font-size: 12px;
+    margin-bottom: 19px;
+  }
+}
