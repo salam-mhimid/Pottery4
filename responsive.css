@@ -4,40 +4,6 @@
   input {
     width: 250px;
   }
-  .Product-detail {
-    grid-template-columns: 1fr;
-  }
-  .Product-detail img {
-    width: 90%;
-    margin: 20px auto;
-    display: block;
-  }
-  /*products*/
-  .product-content h4 {
-    font-size: 25px;
-    margin-top: 0px;
-  }
-  .product-content h5 {
-    padding-right: 20px;
-  }
-  .product-content p {
-    font-size: 12px;
-    padding: 0 15px;
-  }
-  .product-content h4 {
-    padding-right: 20px;
-  }
-  .product-content p {
-    padding-right: 20px;
-  }
-
-  .product-content span {
-    padding-right: 20px;
-  }
-  .Product-detail button {
-    margin-right: 20px;
-    margin-bottom: 40px;
-  }
   /*Services*/
   .Services {
     flex-direction: column;
@@ -231,8 +197,7 @@
 }
 @media (max-width: 768px) {
   .Product-detail img {
-    width: 300px;
-    margin-right: 20px;
+    width: 250px;
     margin-top: 20px;
   }
   .product-content h4 {
