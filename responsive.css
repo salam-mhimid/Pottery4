@@ -1,8 +1,10 @@
 /*Shopping*/
-@media (max-width: 425px) {
+@media (max-width: 424px) {
   /*user*/
   input {
-    width: 250px;
+    width: 90%;
+    max-width: 450px;
+    box-sizing: border-box;
   }
   /*Services*/
   .Services {
