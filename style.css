@@ -2,6 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+h4,
+p,
+h5,
+h1,
+h3,
+label,
+input,
+button {
   font-family: "Cairo", sans-serif;
 }
 header {
